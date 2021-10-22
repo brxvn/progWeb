@@ -1,0 +1,114 @@
+/******************************************
+*  Author : brxvn
+*  Created On : Thu Oct 21 2021
+*  File : stylePersonal.css
+*******************************************/
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #1f2833;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  background-color: #c5c6c7;
+}
+
+header h1 {
+  padding-top: 40px;
+  font-size: 4rem;
+  color: #0b0c10;
+  text-align: center;
+}
+
+header p {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 10px;
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+main .card {
+  width: 80%;
+  height: 330px;
+  display: flex;
+  margin: 0 auto;
+}
+
+main .card .photo {
+  width: 100%;
+  margin: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+#photo1 {
+  background-image: url('../Assets/img/me.jpg');
+  order: 1;
+}
+
+#photo2{
+  position: relative;
+  background-image: url('../Assets/img/bff.jpg');
+  background-position-y: -110px;
+  height: 400px;
+  top: -100px;
+}
+
+#photo3 {
+  background-image: url('../Assets/img/me2.jpg');
+  background-position: top;
+  position: relative;
+  top: -110px;
+  height: 400px;
+  order: 2;
+}
+
+main .card .info {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.card .info h2{
+  font-weight: bold;
+  font-size: 2rem;
+  color: #fff;
+  text-align: left;
+  line-height: 2.5rem;
+  padding-bottom: 10px;
+}
+
+.card .info p {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #fff;
+}
+
+footer{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #c5c6c7;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+foter a {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
