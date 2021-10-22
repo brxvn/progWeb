@@ -82,6 +82,7 @@ main .card .info {
   padding: 20px;
 }
 
+.card-experiencia h2,
 .card .info h2{
   font-weight: bold;
   font-size: 2rem;
@@ -91,10 +92,18 @@ main .card .info {
   padding-bottom: 10px;
 }
 
+.card-experiencia ul,
 .card .info p {
   font-size: 1.6rem;
   line-height: 2rem;
   color: #fff;
+}
+
+.card-experiencia {
+  width: 80%;
+  display: flex;
+  margin: 10px auto;
+  justify-content: space-evenly;
 }
 
 footer{
@@ -111,4 +120,8 @@ foter a {
   width: 100%;
   text-align: center;
   align-items: center;
+}
+
+.card-experiencia ul a {
+  color: #fff;
 }
